@@ -55,3 +55,25 @@ schools_df["Type"] = type_of_school
 
 #print the data frame
 schools_df
+
+
+#_________________________________________________
+#4.4.3
+# Add the dependencies.
+import pandas as pd
+import os
+
+# Files to load
+school_data_to_load = os.path.join("Resources", "schools_complete.csv")
+student_data_to_load = os.path.join("Resources", "students_complete.csv")
+
+##OR##
+# Add the Pandas dependency.
+import pandas as pd
+# Files to load
+school_data_to_load = "Resources/schools_complete.csv"
+student_data_to_load = "Resources/students_complete.csv"
+
+# look at the first or last X rows
+school_data_df.head(3)
+school_data_df.tail(3)
