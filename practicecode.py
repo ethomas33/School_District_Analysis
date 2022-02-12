@@ -77,3 +77,32 @@ student_data_to_load = "Resources/students_complete.csv"
 # look at the first or last X rows
 school_data_df.head(3)
 school_data_df.tail(3)
+
+
+#_____________________________________________
+#4.5.1 
+import pandas as pd
+
+# Files to load
+school_data_to_load = "Resources/schools_complete.csv"
+student_data_to_load = "Resources/students_complete.csv"
+
+# read schools data in data frame
+school_data_df = pd.read_csv(school_data_to_load)
+school_data_df
+
+#Read the student data file and store in dataframe.
+student_data_df = pd.read_csv(student_data_to_load)
+student_data_df.head()
+
+# Determine if there are any missing values in the school data.
+school_data_df.count()
+
+# Determine if there are any missing values in the student data.
+student_data_df.count()
+
+# determine if there are missing values in the school data 
+school_data_df.isnull()
+
+# determine if there are missing values in the student data
+student_data_df.isnull().sum()
