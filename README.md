@@ -25,6 +25,6 @@ It did cause Thomas High School to drop in the ranks in many of the categories i
     - Scores by school type
 
 # Thomas High School Summary: 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+Thomas High School has suspected its 9th graders of cheating so their scores have been removed from the analysis to see how the final values would change. Overall this did not seem to have a large impact due to the small number of THS 9th graders relative to total students who took the tests. Thomas High School didn't change ranking in over all passing percentage for reading and math. It also did not have any impact on total score averages. We did see a slight lowering of both the reading and math scores as well as slightly lowered the the percent of students passing each subject. We also saw an obvious whole when looking at schools by grade because we removed all of THS 9th graders not just a subset of them. 
 
 version: Python 3.7
